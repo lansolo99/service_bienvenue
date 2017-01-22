@@ -1,0 +1,358 @@
+/*********/
+/* RESET */
+/*********/
+header, nav, footer, figure, section, article {
+  display: block; }
+
+html, body, span, object, iframe, h1, h2, h3, h4, h5, h6, a, em, font, img, strong, sub, sup, dl, dt, dd, ul, ol, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none; }
+
+/*********/
+/* GENERAL */
+/*********/
+body {
+  font-family: 'Arial', sans-serif;
+  height: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box; }
+
+/*  Modifs gabarit pri  */
+#n2g_conteneur_milieu {
+  padding-bottom: 0px; }
+
+#n2g_zone_milieu {
+  margin-top: 0px; }
+
+#n2g_zone_centre {
+  padding-left: 0;
+  padding-right: 0;
+  width: 978px !important;
+  float: none;
+  height: auto !important; }
+
+a {
+  text-decoration: underline; }
+
+/*******************************
+	   Contenu Page bienvenue
+*******************************/
+/*  GRID SYSTEM */
+/*  SECTIONS  */
+.n2g_section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+  zoom: 1; }
+
+/*  COLUMN SETUP  */
+.n2g_col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 0%; }
+
+.n2g_col:first-child {
+  margin-left: 0; }
+
+.n2g_clear {
+  content: "";
+  display: table;
+  clear: both; }
+
+/*  GRID OF 2  */
+.n2g_span_1_of_2 {
+  width: 50%; }
+
+/*  GRID OF 4  */
+.n2g_span_1_of_4 {
+  width: 25%; }
+
+/*  GRID OF 5  */
+.n2g_span_1_of_5 {
+  width: 20%; }
+
+/* Vars */
+/* Mixins */
+/* Wrapper */
+.n2g_bienvenue_wrapper {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  /* Hero */
+  /* Features */
+  /* Main */
+  /* Summary */
+  /* FAQ */
+  /* Mentions */ }
+  .n2g_bienvenue_wrapper #n2g_bienvenue_hero {
+    overflow: hidden;
+    position: relative;
+    width: 978px;
+    height: 464px;
+    background-color: #f1f0f0;
+    background-image: url("../img/n2g_bienvenue_theme.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0; }
+    .n2g_bienvenue_wrapper #n2g_bienvenue_hero .n2g_bienvenue_contenu {
+      margin: 45px 0 0 475px;
+      width: 470px; }
+      .n2g_bienvenue_wrapper #n2g_bienvenue_hero .n2g_bienvenue_contenu h1 {
+        color: #6093cf;
+        text-transform: uppercase;
+        font-size: 21px;
+        line-height: 30px; }
+      .n2g_bienvenue_wrapper #n2g_bienvenue_hero .n2g_bienvenue_contenu .n2g_bienvenue_plain_text {
+        margin-top: 25px;
+        color: #484848;
+        font-size: 16px;
+        line-height: 23px; }
+        .n2g_bienvenue_wrapper #n2g_bienvenue_hero .n2g_bienvenue_contenu .n2g_bienvenue_plain_text a {
+          color: #484848; }
+      .n2g_bienvenue_wrapper #n2g_bienvenue_hero .n2g_bienvenue_contenu a.n2g_button {
+        display: block;
+        position: relative;
+        margin: auto;
+        padding: 0;
+        height: 52px;
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 16px;
+        text-align: center;
+        font-weight: normal;
+        text-align: left;
+        border-radius: 5px;
+        background-color: #fc0016;
+        border-bottom: 2px #a02426 solid;
+        margin-top: 25px; }
+        .n2g_bienvenue_wrapper #n2g_bienvenue_hero .n2g_bienvenue_contenu a.n2g_button span {
+          position: relative;
+          display: block;
+          margin: auto;
+          top: 20px;
+          text-align: center; }
+        .n2g_bienvenue_wrapper #n2g_bienvenue_hero .n2g_bienvenue_contenu a.n2g_button:hover {
+          background-color: #dc091b;
+          border-bottom: 2px #a02426 solid; }
+  .n2g_bienvenue_wrapper #n2g_bienvenue_features {
+    background-color: #717171;
+    height: 100px;
+    color: #ffffff;
+    padding: 0 40px; }
+    .n2g_bienvenue_wrapper #n2g_bienvenue_features .n2g_col {
+      text-align: center;
+      font-size: 13px;
+      text-transform: uppercase;
+      font-weight: bold; }
+      .n2g_bienvenue_wrapper #n2g_bienvenue_features .n2g_col .icon {
+        margin: auto;
+        width: 40px;
+        height: 40px;
+        background: #938203; }
+        .n2g_bienvenue_wrapper #n2g_bienvenue_features .n2g_col .icon.demarche {
+          background: url("../img/feature-white.png") no-repeat 0 0; }
+        .n2g_bienvenue_wrapper #n2g_bienvenue_features .n2g_col .icon.procedure {
+          background: url("../img/feature-white.png") no-repeat -40px 0; }
+        .n2g_bienvenue_wrapper #n2g_bienvenue_features .n2g_col .icon.suivi {
+          background: url("../img/feature-white.png") no-repeat -80px 0; }
+        .n2g_bienvenue_wrapper #n2g_bienvenue_features .n2g_col .icon.outil {
+          background: url("../img/feature-white.png") no-repeat -120px 0; }
+        .n2g_bienvenue_wrapper #n2g_bienvenue_features .n2g_col .icon.service {
+          background: url("../img/feature-white.png") no-repeat -160px 0; }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+          .n2g_bienvenue_wrapper #n2g_bienvenue_features .n2g_col .icon.demarche, .n2g_bienvenue_wrapper #n2g_bienvenue_features .n2g_col .icon.procedure, .n2g_bienvenue_wrapper #n2g_bienvenue_features .n2g_col .icon.suivi, .n2g_bienvenue_wrapper #n2g_bienvenue_features .n2g_col .icon.outil, .n2g_bienvenue_wrapper #n2g_bienvenue_features .n2g_col .icon.service {
+            background-image: url("../img/feature-white-2x.png");
+            background-size: 200px 40px; } }
+      .n2g_bienvenue_wrapper #n2g_bienvenue_features .n2g_col span {
+        display: block;
+        margin-top: 5px;
+        line-height: 17px; }
+  .n2g_bienvenue_wrapper #n2g_bienvenue_main {
+    padding: 50px 100px 70px 50px;
+    background-color: #fafafa; }
+    .n2g_bienvenue_wrapper #n2g_bienvenue_main h2 {
+      text-transform: uppercase;
+      font-size: 21px; }
+    .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_plain_text {
+      margin-top: 25px;
+      color: #484848;
+      font-size: 16px;
+      line-height: 22px; }
+      .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_plain_text a {
+        color: #484848; }
+      .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_plain_text ul {
+        margin-left: 25px;
+        margin-top: 20px;
+        color: #6093cf; }
+        .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_plain_text ul li {
+          font-size: 20px; }
+          .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_plain_text ul li:not(:first-child) {
+            margin-top: 10px; }
+          .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_plain_text ul li span {
+            font-size: 16px;
+            color: #000000; }
+      .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_plain_text span.n2g_bienvenue_colored_part {
+        color: #6093cf; }
+    .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution {
+      margin-top: 40px; }
+      .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution h3 {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 21px; }
+      .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_plain_text {
+        color: #000000; }
+      .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper {
+        margin-top: 30px;
+        height: 230px; }
+        .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper.transfer_mesure .n2g_section .n2g_col {
+          height: 300px; }
+        .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper .n2g_section .n2g_col {
+          height: 250px;
+          text-align: center; }
+          .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper .n2g_section .n2g_col .icon {
+            margin: auto;
+            width: 80px;
+            height: 80px;
+            background-color: #6093cf; }
+            .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper .n2g_section .n2g_col .icon.remplir {
+              background: url("../img/stepper.png") no-repeat 0 0; }
+            .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper .n2g_section .n2g_col .icon.contacter {
+              background: url("../img/stepper.png") no-repeat -80px 0; }
+            .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper .n2g_section .n2g_col .icon.adresser {
+              background: url("../img/stepper.png") no-repeat -160px 0; }
+            .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper .n2g_section .n2g_col .icon.cloturer {
+              background: url("../img/stepper.png") no-repeat -240px 0; }
+            .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper .n2g_section .n2g_col .icon.adresser-2 {
+              background: url("../img/stepper.png") no-repeat -320px 0; }
+            .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper .n2g_section .n2g_col .icon.selectionner {
+              background: url("../img/stepper.png") no-repeat -400px 0; }
+            @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+              .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper .n2g_section .n2g_col .icon.remplir, .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper .n2g_section .n2g_col .icon.contacter, .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper .n2g_section .n2g_col .icon.adresser, .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper .n2g_section .n2g_col .icon.cloturer {
+                background-image: url("../img/stepper-2x.png");
+                background-size: 480px 80px; } }
+          .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper .n2g_section .n2g_col span {
+            display: block;
+            margin: 25px 20px;
+            font-size: 14px;
+            line-height: 20px; }
+    .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_action {
+      clear: both; }
+      .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_action a.n2g_button {
+        display: block;
+        width: 485px;
+        display: block;
+        position: relative;
+        margin: auto;
+        padding: 0;
+        height: 52px;
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 16px;
+        text-align: center;
+        font-weight: normal;
+        text-align: left;
+        border-radius: 5px;
+        background-color: #fc0016;
+        border-bottom: 2px #a02426 solid; }
+        .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_action a.n2g_button span {
+          position: relative;
+          display: block;
+          margin: auto;
+          top: 20px;
+          text-align: center; }
+        .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_action a.n2g_button:hover {
+          background-color: #dc091b;
+          border-bottom: 2px #a02426 solid; }
+  .n2g_bienvenue_wrapper #n2g_bienvenue_summary {
+    padding: 50px 100px 70px 50px; }
+    .n2g_bienvenue_wrapper #n2g_bienvenue_summary h2 {
+      text-transform: uppercase;
+      font-size: 21px; }
+    .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul {
+      list-style-type: none; }
+      .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li {
+        margin-top: 35px;
+        margin-left: 20px; }
+        .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li .icon {
+          float: left;
+          width: 60px;
+          height: 90px;
+          margin-right: 20px;
+          background-color: #938; }
+          .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li .icon.demarche {
+            background: url("../img/feature-blue.png") no-repeat 0 0; }
+          .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li .icon.procedure {
+            background: url("../img/feature-blue.png") no-repeat -60px 0; }
+          .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li .icon.suivi {
+            background: url("../img/feature-blue.png") no-repeat -120px 0; }
+          .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li .icon.outil {
+            background: url("../img/feature-blue.png") no-repeat -180px 0; }
+          .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li .icon.service {
+            background: url("../img/feature-blue.png") no-repeat -240px 0; }
+          @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+            .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li .icon.demarche, .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li .icon.procedure, .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li .icon.suivi, .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li .icon.outil, .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li .icon.service {
+              background-image: url("../img/feature-blue-2x.png");
+              background-size: 300px 60px; } }
+        .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li h3 {
+          text-transform: uppercase;
+          color: #6093cf;
+          font-size: 16px; }
+        .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li span {
+          margin-top: 25px;
+          color: #484848;
+          font-size: 16px;
+          line-height: 22px;
+          display: block;
+          width: 700px;
+          margin-top: 8px; }
+          .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li span a {
+            color: #484848; }
+          .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li span ul {
+            margin-left: 25px;
+            margin-top: 20px;
+            color: #6093cf; }
+            .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li span ul li {
+              font-size: 20px; }
+              .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li span ul li:not(:first-child) {
+                margin-top: 10px; }
+              .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li span ul li span {
+                font-size: 16px;
+                color: #000000; }
+          .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li span span.n2g_bienvenue_colored_part {
+            color: #6093cf; }
+  .n2g_bienvenue_wrapper #n2g_bienvenue_mentions {
+    padding: 30px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    color: #000000;
+    background: #ffffff; }
+    .n2g_bienvenue_wrapper #n2g_bienvenue_mentions a {
+      color: #000000; }
+    .n2g_bienvenue_wrapper #n2g_bienvenue_mentions .n2g_expresso_mentions {
+      counter-reset: mention_count;
+      margin-bottom: 10px; }
+      .n2g_bienvenue_wrapper #n2g_bienvenue_mentions .n2g_expresso_mentions dt {
+        position: relative;
+        padding: 0px 0 12px 0;
+        padding-left: 25px;
+        line-height: 15px; }
+        .n2g_bienvenue_wrapper #n2g_bienvenue_mentions .n2g_expresso_mentions dt span {
+          position: absolute;
+          left: 0;
+          top: 0;
+          *top: -5px;
+          font-size: 12px; }
+        .n2g_bienvenue_wrapper #n2g_bienvenue_mentions .n2g_expresso_mentions dt.last {
+          margin-bottom: 0; }
+      .n2g_bienvenue_wrapper #n2g_bienvenue_mentions .n2g_expresso_mentions.small {
+        font-size: 12px;
+        line-height: 16px; }
+
+/*# sourceMappingURL=n2g_bienvenue.css.map */
