@@ -346,6 +346,7 @@ a {
         width: 35px;
         height: 35px;
         position: absolute;
+        pointer-events: none;
         top: 40px;
         right: 70px;
         background: url("../img/faq_deploy_signs.png") no-repeat 0 0; }
@@ -365,6 +366,7 @@ a {
         font-weight: bold; }
       .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h2 span {
         display: block;
+        pointer-events: none;
         width: 35px;
         height: 35px;
         position: absolute;
