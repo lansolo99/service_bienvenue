@@ -4,6 +4,7 @@
 body {
   font-size: 100%;
 }
+
 .accordion {
   width: 380px;
   margin: 20px auto;
@@ -34,7 +35,7 @@ body {
 .accordion h1:not(:last-of-type) {
   border-bottom: 1px dotted #1abc9c;
 }
-.accordion div, .accordion p {
+.accordion div, .accordion p, .accordion span.n2_question_content {
   display: none;
 }
 .accordion h2 {
@@ -50,7 +51,7 @@ body {
   padding: 5px 30px;
   background-color: #b94152;
   font-size: .9rem;
-  color: #ddd; 
+  color: #ddd;
 }
 .accordion h3:hover {
   background-color: #a93142;
@@ -59,12 +60,12 @@ body {
   padding: 5px 35px;
   background-color: #ffc25a;
   font-size: .9rem;
-  color: #af720a; 
+  color: #af720a;
 }
 .accordion h4:hover {
   background-color: #e0b040;
 }
-.accordion p {
+.accordion p, .accordion div.n2_question_content  {
   padding: 15px 35px;
   background-color: #ddd;
   font-family: "Georgia";
