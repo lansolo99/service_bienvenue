@@ -211,7 +211,7 @@ a {
         color: #000000; }
       .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper {
         margin-top: 30px;
-        height: 230px; }
+        min-height: 230px; }
         .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper.transfer_mesure .n2g_section .n2g_col {
           height: 300px; }
         .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper .n2g_section .n2g_col {
