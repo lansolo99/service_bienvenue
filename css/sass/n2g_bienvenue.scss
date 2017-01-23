@@ -251,11 +251,11 @@
 				height: 40px;
 				background: #938203;
 
-				&.demarche{background: url('../img/feature-white.png') no-repeat 0 0;}
-				&.procedure{background: url('../img/feature-white.png') no-repeat -40px 0 ;}
-				&.suivi{background: url('../img/feature-white.png') no-repeat -80px 0 ;}
-				&.outil{background: url('../img/feature-white.png') no-repeat -120px 0 ;}
-				&.service{background: url('../img/feature-white.png') no-repeat -160px 0 ;}
+				&.demarche{background: url('../img/n2g_bienvenue_feature-white.png') no-repeat 0 0;}
+				&.procedure{background: url('../img/n2g_bienvenue_feature-white.png') no-repeat -40px 0 ;}
+				&.suivi{background: url('../img/n2g_bienvenue_feature-white.png') no-repeat -80px 0 ;}
+				&.outil{background: url('../img/n2g_bienvenue_feature-white.png') no-repeat -120px 0 ;}
+				&.service{background: url('../img/n2g_bienvenue_feature-white.png') no-repeat -160px 0 ;}
 
 				@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
 					&.demarche,
@@ -264,7 +264,7 @@
 					&.outil,
 					&.service
 					{
-						background-image: url('../img/feature-white-2x.png');
+						background-image: url('../img/n2g_bienvenue_feature-white-2x.png');
 						background-size: 200px 40px;
 					}
 
@@ -313,7 +313,18 @@
 
 					.n2g_section .n2g_col{
 						height: 300px;
+
+						&.n2g_span_1_of_4 {
+							width: 23%;
+						}
+
+						&.n2g_span_1_of_4_extended {
+							width: 31%;
+						}
 					}
+
+
+
 			}
 
 				margin-top: 30px;
@@ -331,12 +342,12 @@
 						height: 80px;
 						background-color: $color-blue-light;
 
-						&.remplir{background: url('../img/stepper.png') no-repeat 0 0;}
-						&.contacter{background: url('../img/stepper.png') no-repeat -80px 0;}
-						&.adresser{background: url('../img/stepper.png') no-repeat -160px 0;}
-						&.cloturer{background: url('../img/stepper.png') no-repeat -240px 0;}
-						&.adresser-2{background: url('../img/stepper.png') no-repeat -320px 0;}
-						&.selectionner{background: url('../img/stepper.png') no-repeat -400px 0;}
+						&.remplir{background: url('../img/n2g_bienvenue_stepper.png') no-repeat 0 0;}
+						&.contacter{background: url('../img/n2g_bienvenue_stepper.png') no-repeat -80px 0;}
+						&.adresser{background: url('../img/n2g_bienvenue_stepper.png') no-repeat -160px 0;}
+						&.cloturer{background: url('../img/n2g_bienvenue_stepper.png') no-repeat -240px 0;}
+						&.adresser-2{background: url('../img/n2g_bienvenue_stepper.png') no-repeat -320px 0;}
+						&.selectionner{background: url('../img/n2g_bienvenue_stepper.png') no-repeat -400px 0;}
 
 						@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
 							&.remplir,
@@ -346,7 +357,7 @@
 							&.adresser-2,
 							&.selectionner
 							{
-								background-image: url('../img/stepper-2x.png');
+								background-image: url('../img/n2g_bienvenue_stepper-2x.png');
 								background-size: 480px 80px;
 							}
 
@@ -374,6 +385,17 @@
 				display:block;
 				width: 485px;
 				@include n2g_button;
+			}
+
+			.n2g_bienvenue_deja_client{
+				text-align: center;
+				margin-top: 20px;
+
+				a{
+					text-decoration: underline;
+					color: #333333;
+				}
+
 			}
 		}
 
@@ -404,11 +426,11 @@
 							margin-right: 20px;
 							background-color: #938;
 
-							&.demarche{background:url('../img/feature-blue.png') no-repeat 0 0;}
-							&.procedure{background:url('../img/feature-blue.png') no-repeat -60px 0;}
-							&.suivi{background:url('../img/feature-blue.png') no-repeat -120px 0;}
-							&.outil{background:url('../img/feature-blue.png') no-repeat -180px 0;}
-							&.service{background:url('../img/feature-blue.png') no-repeat -240px 0;}
+							&.demarche{background:url('../img/n2g_bienvenue_feature-blue.png') no-repeat 0 0;}
+							&.procedure{background:url('../img/n2g_bienvenue_feature-blue.png') no-repeat -60px 0;}
+							&.suivi{background:url('../img/n2g_bienvenue_feature-blue.png') no-repeat -120px 0;}
+							&.outil{background:url('../img/n2g_bienvenue_feature-blue.png') no-repeat -180px 0;}
+							&.service{background:url('../img/n2g_bienvenue_feature-blue.png') no-repeat -240px 0;}
 
 							@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
 								&.demarche,
@@ -417,7 +439,7 @@
 								&.outil,
 								&.service
 								{
-									background-image: url('../img/feature-blue-2x.png');
+									background-image: url('../img/n2g_bienvenue_feature-blue-2x.png');
 									background-size: 300px 60px;
 
 								}
@@ -476,13 +498,13 @@
 						pointer-events: none;
 						top: 40px;
 						right: 70px;
-						background: url('../img/faq_deploy_signs.png') no-repeat 0 0;
+						background: url('../img/n2g_bienvenue_faq_deploy_signs.png') no-repeat 0 0;
 						&.open{
 							background-position: -35px 0;
 						}
 
 						@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
-								background-image: url('../img/faq_deploy_signs-2x.png');
+								background-image: url('../img/n2g_bienvenue_faq_deploy_signs-2x.png');
 								background-size: 140px 35px;
 						}
 
@@ -514,13 +536,13 @@
 						position: absolute;
 						top: 16px;
 						right: 70px;
-						background: url('../img/faq_deploy_signs.png') no-repeat -70px 0;
+						background: url('../img/n2g_bienvenue_faq_deploy_signs.png') no-repeat -70px 0;
 						&.open{
 							background-position: -105px 0;
 						}
 
 						@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
-								background-image: url('../img/faq_deploy_signs-2x.png');
+								background-image: url('../img/n2g_bienvenue_faq_deploy_signs-2x.png');
 								background-size: 140px 35px;
 						}
 

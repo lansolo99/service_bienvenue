@@ -158,18 +158,18 @@ a {
         height: 40px;
         background: #938203; }
         .n2g_bienvenue_wrapper #n2g_bienvenue_features .n2g_col .icon.demarche {
-          background: url("../img/feature-white.png") no-repeat 0 0; }
+          background: url("../img/n2g_bienvenue_feature-white.png") no-repeat 0 0; }
         .n2g_bienvenue_wrapper #n2g_bienvenue_features .n2g_col .icon.procedure {
-          background: url("../img/feature-white.png") no-repeat -40px 0; }
+          background: url("../img/n2g_bienvenue_feature-white.png") no-repeat -40px 0; }
         .n2g_bienvenue_wrapper #n2g_bienvenue_features .n2g_col .icon.suivi {
-          background: url("../img/feature-white.png") no-repeat -80px 0; }
+          background: url("../img/n2g_bienvenue_feature-white.png") no-repeat -80px 0; }
         .n2g_bienvenue_wrapper #n2g_bienvenue_features .n2g_col .icon.outil {
-          background: url("../img/feature-white.png") no-repeat -120px 0; }
+          background: url("../img/n2g_bienvenue_feature-white.png") no-repeat -120px 0; }
         .n2g_bienvenue_wrapper #n2g_bienvenue_features .n2g_col .icon.service {
-          background: url("../img/feature-white.png") no-repeat -160px 0; }
+          background: url("../img/n2g_bienvenue_feature-white.png") no-repeat -160px 0; }
         @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
           .n2g_bienvenue_wrapper #n2g_bienvenue_features .n2g_col .icon.demarche, .n2g_bienvenue_wrapper #n2g_bienvenue_features .n2g_col .icon.procedure, .n2g_bienvenue_wrapper #n2g_bienvenue_features .n2g_col .icon.suivi, .n2g_bienvenue_wrapper #n2g_bienvenue_features .n2g_col .icon.outil, .n2g_bienvenue_wrapper #n2g_bienvenue_features .n2g_col .icon.service {
-            background-image: url("../img/feature-white-2x.png");
+            background-image: url("../img/n2g_bienvenue_feature-white-2x.png");
             background-size: 200px 40px; } }
       .n2g_bienvenue_wrapper #n2g_bienvenue_features .n2g_col span {
         display: block;
@@ -214,6 +214,10 @@ a {
         min-height: 230px; }
         .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper.transfer_mesure .n2g_section .n2g_col {
           height: 300px; }
+          .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper.transfer_mesure .n2g_section .n2g_col.n2g_span_1_of_4 {
+            width: 23%; }
+          .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper.transfer_mesure .n2g_section .n2g_col.n2g_span_1_of_4_extended {
+            width: 31%; }
         .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper .n2g_section .n2g_col {
           height: 250px;
           text-align: center; }
@@ -223,20 +227,20 @@ a {
             height: 80px;
             background-color: #6093cf; }
             .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper .n2g_section .n2g_col .icon.remplir {
-              background: url("../img/stepper.png") no-repeat 0 0; }
+              background: url("../img/n2g_bienvenue_stepper.png") no-repeat 0 0; }
             .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper .n2g_section .n2g_col .icon.contacter {
-              background: url("../img/stepper.png") no-repeat -80px 0; }
+              background: url("../img/n2g_bienvenue_stepper.png") no-repeat -80px 0; }
             .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper .n2g_section .n2g_col .icon.adresser {
-              background: url("../img/stepper.png") no-repeat -160px 0; }
+              background: url("../img/n2g_bienvenue_stepper.png") no-repeat -160px 0; }
             .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper .n2g_section .n2g_col .icon.cloturer {
-              background: url("../img/stepper.png") no-repeat -240px 0; }
+              background: url("../img/n2g_bienvenue_stepper.png") no-repeat -240px 0; }
             .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper .n2g_section .n2g_col .icon.adresser-2 {
-              background: url("../img/stepper.png") no-repeat -320px 0; }
+              background: url("../img/n2g_bienvenue_stepper.png") no-repeat -320px 0; }
             .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper .n2g_section .n2g_col .icon.selectionner {
-              background: url("../img/stepper.png") no-repeat -400px 0; }
+              background: url("../img/n2g_bienvenue_stepper.png") no-repeat -400px 0; }
             @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
               .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper .n2g_section .n2g_col .icon.remplir, .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper .n2g_section .n2g_col .icon.contacter, .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper .n2g_section .n2g_col .icon.adresser, .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper .n2g_section .n2g_col .icon.cloturer, .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper .n2g_section .n2g_col .icon.adresser-2, .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper .n2g_section .n2g_col .icon.selectionner {
-                background-image: url("../img/stepper-2x.png");
+                background-image: url("../img/n2g_bienvenue_stepper-2x.png");
                 background-size: 480px 80px; } }
           .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_solution .n2g_bienvenue_stepper .n2g_section .n2g_col span {
             display: block;
@@ -272,6 +276,12 @@ a {
         .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_action a.n2g_button:hover {
           background-color: #dc091b;
           border-bottom: 2px #a02426 solid; }
+      .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_action .n2g_bienvenue_deja_client {
+        text-align: center;
+        margin-top: 20px; }
+        .n2g_bienvenue_wrapper #n2g_bienvenue_main .n2g_bienvenue_action .n2g_bienvenue_deja_client a {
+          text-decoration: underline;
+          color: #333333; }
   .n2g_bienvenue_wrapper #n2g_bienvenue_summary {
     padding: 50px 100px 70px 50px; }
     .n2g_bienvenue_wrapper #n2g_bienvenue_summary h2 {
@@ -289,18 +299,18 @@ a {
           margin-right: 20px;
           background-color: #938; }
           .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li .icon.demarche {
-            background: url("../img/feature-blue.png") no-repeat 0 0; }
+            background: url("../img/n2g_bienvenue_feature-blue.png") no-repeat 0 0; }
           .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li .icon.procedure {
-            background: url("../img/feature-blue.png") no-repeat -60px 0; }
+            background: url("../img/n2g_bienvenue_feature-blue.png") no-repeat -60px 0; }
           .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li .icon.suivi {
-            background: url("../img/feature-blue.png") no-repeat -120px 0; }
+            background: url("../img/n2g_bienvenue_feature-blue.png") no-repeat -120px 0; }
           .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li .icon.outil {
-            background: url("../img/feature-blue.png") no-repeat -180px 0; }
+            background: url("../img/n2g_bienvenue_feature-blue.png") no-repeat -180px 0; }
           .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li .icon.service {
-            background: url("../img/feature-blue.png") no-repeat -240px 0; }
+            background: url("../img/n2g_bienvenue_feature-blue.png") no-repeat -240px 0; }
           @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
             .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li .icon.demarche, .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li .icon.procedure, .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li .icon.suivi, .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li .icon.outil, .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li .icon.service {
-              background-image: url("../img/feature-blue-2x.png");
+              background-image: url("../img/n2g_bienvenue_feature-blue-2x.png");
               background-size: 300px 60px; } }
         .n2g_bienvenue_wrapper #n2g_bienvenue_summary ul li h3 {
           text-transform: uppercase;
@@ -349,12 +359,12 @@ a {
         pointer-events: none;
         top: 40px;
         right: 70px;
-        background: url("../img/faq_deploy_signs.png") no-repeat 0 0; }
+        background: url("../img/n2g_bienvenue_faq_deploy_signs.png") no-repeat 0 0; }
         .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h1 span.open {
           background-position: -35px 0; }
         @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
           .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h1 span {
-            background-image: url("../img/faq_deploy_signs-2x.png");
+            background-image: url("../img/n2g_bienvenue_faq_deploy_signs-2x.png");
             background-size: 140px 35px; } }
     .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion div, .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion p {
       display: none; }
@@ -372,12 +382,12 @@ a {
         position: absolute;
         top: 16px;
         right: 70px;
-        background: url("../img/faq_deploy_signs.png") no-repeat -70px 0; }
+        background: url("../img/n2g_bienvenue_faq_deploy_signs.png") no-repeat -70px 0; }
         .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h2 span.open {
           background-position: -105px 0; }
         @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
           .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h2 span {
-            background-image: url("../img/faq_deploy_signs-2x.png");
+            background-image: url("../img/n2g_bienvenue_faq_deploy_signs-2x.png");
             background-size: 140px 35px; } }
     .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h2, .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion div.n2_question_content {
       padding: 16px 200px 16px 70px;
