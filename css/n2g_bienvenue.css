@@ -371,9 +371,10 @@ a {
     .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h2 {
       position: relative;
       font-weight: normal;
-      min-height: 40px; }
+      height: 40px; }
       .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h2.open {
-        font-weight: bold; }
+        font-weight: bold;
+        display: block; }
       .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h2 span {
         display: block;
         pointer-events: none;

@@ -17,14 +17,11 @@ $(".accordion").click(function(e) {
     });
     $(allAtDepth).slideUp("fast");
 
-    //slideToggle target content and adjust bottom border if necessary
+    
     subItem.slideToggle("fast",function() {
-        /*$(".accordion :visible:last").css("border-radius","0 0 10px 10px");*/
+
     });
 
-
-    // $(targetRcd).css({"font-weight":"normal"});
-    // $(target).css({"font-weight":"bold"});
 
       //Title
       if($(target).hasClass('title')){
