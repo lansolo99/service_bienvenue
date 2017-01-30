@@ -592,6 +592,7 @@
 				div.n2_question_content{
 
 					padding-top: 0px;
+					height:auto;
 
 
 					ul{
@@ -612,11 +613,11 @@
 				}
 
 
-				h2:nth-of-type(odd), div.n2_question_content:nth-of-type(odd) {
+				h2:nth-of-type(odd), div.n2_question_content.odd {
 					background-color: #e6e6e6;
 				}
 
-				h2:nth-of-type(even), div.n2_question_content:nth-of-type(even) {
+				h2:nth-of-type(even), div.n2_question_content {
 					background-color: #efefef;
 				}
 

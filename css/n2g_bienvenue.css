@@ -371,7 +371,7 @@ a {
     .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h2 {
       position: relative;
       font-weight: normal;
-      min-height: 40px; }
+      height: 40px; }
       .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h2.open {
         font-weight: bold;
         display: block; }
@@ -413,16 +413,17 @@ a {
       .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h2 span.n2g_bienvenue_colored_part, .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion div.n2_question_content span.n2g_bienvenue_colored_part {
         color: #6093cf; }
     .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion div.n2_question_content {
-      padding-top: 0px; }
+      padding-top: 0px;
+      height: auto; }
       .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion div.n2_question_content ul li:not(:first-child) {
         margin-top: 20px; }
       .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion div.n2_question_content ul li ul {
         margin-top: 10px; }
         .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion div.n2_question_content ul li ul li span {
           font-size: 14px; }
-    .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h2:nth-of-type(odd), .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion div.n2_question_content:nth-of-type(odd) {
+    .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h2:nth-of-type(odd), .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion div.n2_question_content.odd {
       background-color: #e6e6e6; }
-    .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h2:nth-of-type(even), .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion div.n2_question_content:nth-of-type(even) {
+    .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h2:nth-of-type(even), .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion div.n2_question_content {
       background-color: #efefef; }
   .n2g_bienvenue_wrapper #n2g_bienvenue_mention {
     padding: 20px;
