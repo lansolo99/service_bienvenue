@@ -371,7 +371,7 @@ a {
     .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h2 {
       position: relative;
       font-weight: normal;
-      height: 40px; }
+      height: auto; }
       .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h2.open {
         font-weight: bold;
         display: block; }
@@ -421,9 +421,9 @@ a {
         margin-top: 10px; }
         .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion div.n2_question_content ul li ul li span {
           font-size: 14px; }
-    .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h2:nth-of-type(odd), .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion div.n2_question_content.odd {
+    .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h2.odd, .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion div.n2_question_content.odd {
       background-color: #e6e6e6; }
-    .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h2:nth-of-type(even), .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion div.n2_question_content {
+    .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h2, .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion div.n2_question_content {
       background-color: #efefef; }
   .n2g_bienvenue_wrapper #n2g_bienvenue_mention {
     padding: 20px;

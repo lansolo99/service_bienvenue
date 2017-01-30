@@ -520,7 +520,7 @@
 
 					position: relative;
 					font-weight:normal;
-					height: 40px;
+					height:auto;
 
 
 
@@ -613,11 +613,11 @@
 				}
 
 
-				h2:nth-of-type(odd), div.n2_question_content.odd {
+				h2.odd, div.n2_question_content.odd {
 					background-color: #e6e6e6;
 				}
 
-				h2:nth-of-type(even), div.n2_question_content {
+				h2, div.n2_question_content {
 					background-color: #efefef;
 				}
 
