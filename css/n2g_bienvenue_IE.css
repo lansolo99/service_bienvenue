@@ -1,3 +1,10 @@
 .n2g_span_1_of_5 {
   width: 19%!important;
 }
+
+.n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h2 {
+  position: relative;
+  font-weight: normal;
+  height: auto;
+
+}
