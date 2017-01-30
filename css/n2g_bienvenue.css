@@ -371,7 +371,7 @@ a {
     .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h2 {
       position: relative;
       font-weight: normal;
-      height: 40px; }
+      min-height: 40px; }
       .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h2.open {
         font-weight: bold;
         display: block; }
@@ -392,7 +392,6 @@ a {
             background-size: 140px 35px; } }
     .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h2, .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion div.n2_question_content {
       padding: 16px 200px 16px 70px;
-      margin-top: 25px;
       color: #484848;
       font-size: 16px;
       line-height: 22px;

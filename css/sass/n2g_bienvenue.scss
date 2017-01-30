@@ -520,7 +520,7 @@
 
 					position: relative;
 					font-weight:normal;
-					height:40px;
+					min-height: 40px;
 
 
 
@@ -553,7 +553,36 @@
 
 				h2, div.n2_question_content{
 				  padding: 16px 200px 16px 70px;
-					@include n2g-plain-text;
+
+					color: $color-grey-1;
+					font-size: 16px;
+					line-height: 22px;
+						a{
+							color: $color-grey-1;
+						}
+
+					ul{
+						margin-left: 25px;
+						margin-top: 20px;
+						color: $color-blue-light;
+
+						li{
+							font-size: 20px;
+							&:not(:first-child){
+							margin-top:10px;
+							}
+							span{
+								font-size: 16px;
+								color:$color-black;
+							}
+						}
+					}
+
+					span{
+						&.n2g_bienvenue_colored_part{
+							color: $color-blue-light;
+						}
+					}
 					margin-top:0px;
 					font-weight: normal;
 				}
@@ -563,6 +592,7 @@
 				div.n2_question_content{
 
 					padding-top: 0px;
+
 
 					ul{
 						li{
