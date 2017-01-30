@@ -371,7 +371,7 @@ a {
     .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h2 {
       position: relative;
       font-weight: normal;
-      height: auto; }
+      height: 40px; }
       .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h2.open {
         font-weight: bold;
         display: block; }
@@ -413,7 +413,7 @@ a {
       .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion h2 span.n2g_bienvenue_colored_part, .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion div.n2_question_content span.n2g_bienvenue_colored_part {
         color: #6093cf; }
     .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion div.n2_question_content {
-      padding-top: 0px;
+      padding-top: 30px;
       height: auto; }
       .n2g_bienvenue_wrapper #n2g_bienvenue_faq .accordion div.n2_question_content ul li:not(:first-child) {
         margin-top: 20px; }
