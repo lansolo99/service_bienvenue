@@ -1,9 +1,18 @@
+$(document)
+  .ready(function() {
+
+
 var headers = ["H1","H2","H3","H4","H5","H6"];
 var targetRcd = "";
-$(".accordion h2").children().bind('click', function(){ return false; });
-$(".accordion h2 span").click(function(e){e.preventDefault();});
 
-$(".accordion").click(function(e) {
+$(".accordion h2 .icon").click(function(e){
+  e.preventDefault();
+
+});
+
+
+$(".accordion h1, .accordion h2").click(function(e) {
+  console.log(e.target);
   var target = e.target,
       name = target.nodeName.toUpperCase();
 
@@ -69,4 +78,7 @@ $(".accordion").click(function(e) {
 
 
   }
+});
+
+
 });
