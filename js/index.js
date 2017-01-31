@@ -1,5 +1,6 @@
 var headers = ["H1","H2","H3","H4","H5","H6"];
 var targetRcd = "";
+$(".accordion h2").children().bind('click', function(){ return false; });
 
 $(".accordion").click(function(e) {
   var target = e.target,
@@ -17,7 +18,7 @@ $(".accordion").click(function(e) {
     });
     $(allAtDepth).slideUp("fast");
 
-    
+
     subItem.slideToggle("fast",function() {
 
     });
