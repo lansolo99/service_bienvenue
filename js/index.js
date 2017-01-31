@@ -5,57 +5,20 @@ $(document)
 var headers = ["H1","H2","H3","H4","H5","H6","SPAN"];
 var targetRcd = "";
 
-// $( ".accordion h1 span" ).click(function( event ) {
-//   event.stopPropagation();
-//   // Do something
-// });
-
-// $('.accordion h1 span').attr('disabled','disabled');
-
-
-// $(".accordion h2 span").on('click',test);
-// function test(e){
-//   console.log(e);
-//   e.stopPropagation()
-//   // e.preventDefault();
-// }
 
 $(".accordion").click(function(e) {
 
 
   var target = e.target;
-  if ( $(target).is( "span" ) ) {
-
-     console.log('this is span');
-
-    //  console.log($(target).parent());
-
-   }
-  // if ( $(target).is( "h2" ) ) { console.log('this is h2');}
-// console.log(e.target);
-
   var name = target.nodeName.toUpperCase();
-
-      // if(name== "SPAN"){
-      //
-      //   console.log($(target).parent());
-      //   $(target) = $(target).parent();
-      //   name = "H1";
-      //
-      //   console.log('name = ' + name);
-      // }
-
-
 
   if($.inArray(name,headers) > -1) {
     if ( $(target).is( "span" ) ) {
-    console.log('always');
+
     var subItem = $(target).parent().next();
   }else{
     var subItem = $(target).next();
   }
-
-
 
 
     //slideUp all elements (except target) at current depth or greater
