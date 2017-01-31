@@ -2,7 +2,7 @@ $(document)
   .ready(function() {
 
 
-var headers = ["H1","H2","H3","H4","H5","H6"];
+var headers = ["H1","H2","H3","H4","H5","H6","SPAN"];
 var targetRcd = "";
 
 // $( ".accordion h1 span" ).click(function( event ) {
@@ -20,13 +20,43 @@ var targetRcd = "";
 //   // e.preventDefault();
 // }
 
-$(".accordion h1, .accordion h2").click(function(e) {
-  // console.log(e.target);
-  var target = e.target,
-      name = target.nodeName.toUpperCase();
+$(".accordion").click(function(e) {
+
+
+  var target = e.target;
+  if ( $(target).is( "span" ) ) {
+
+     console.log('this is span');
+
+    //  console.log($(target).parent());
+
+   }
+  // if ( $(target).is( "h2" ) ) { console.log('this is h2');}
+// console.log(e.target);
+
+  var name = target.nodeName.toUpperCase();
+
+      // if(name== "SPAN"){
+      //
+      //   console.log($(target).parent());
+      //   $(target) = $(target).parent();
+      //   name = "H1";
+      //
+      //   console.log('name = ' + name);
+      // }
+
+
 
   if($.inArray(name,headers) > -1) {
+    if ( $(target).is( "span" ) ) {
+    console.log('always');
+    var subItem = $(target).parent().next();
+  }else{
     var subItem = $(target).next();
+  }
+
+
+
 
     //slideUp all elements (except target) at current depth or greater
     var depth = $(subItem).parents().length;
@@ -41,6 +71,53 @@ $(".accordion h1, .accordion h2").click(function(e) {
     subItem.slideToggle("fast",function() {
 
     });
+
+    if ( $(target).is( "span" ) ) {
+
+      //Title
+      if($(target).parent().hasClass('title')){
+
+        //H1 open >
+        if($(target).parent().children().hasClass("open")){
+          // Change for -
+          $(target).parent().children().removeClass("open");
+          //And remove all open classes
+          $( "div" ).children( ".open" ).removeClass("open");
+        }else{
+          // Change for +
+          $(target).parent().children().addClass("open");
+        }
+
+      }
+
+      //Questions
+      if(!$(target).parent().hasClass('title')){
+
+
+        if($(targetRcd).parent().hasClass('open')){
+          if($(target).parent().hasClass('open')){
+            //do nothing
+          }else{
+            $(targetRcd).parent().toggleClass('open');
+            $(targetRcd).parent().children().toggleClass('open');
+          }
+
+
+
+        }
+
+        //Toggle class of current
+        $(target).parent().toggleClass('open');
+        $(target).parent().children().toggleClass('open');
+
+        //Current become old
+        targetRcd = target;
+
+
+      }
+
+
+    }else{
 
 
       //Title
@@ -84,6 +161,12 @@ $(".accordion h1, .accordion h2").click(function(e) {
 
 
       }
+
+    }
+
+
+
+
 
 
   }
