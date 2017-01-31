@@ -5,14 +5,23 @@ $(document)
 var headers = ["H1","H2","H3","H4","H5","H6"];
 var targetRcd = "";
 
-$(".accordion h2 .icon").click(function(e){
-  e.preventDefault();
+// $( ".accordion h1 span" ).click(function( event ) {
+//   event.stopPropagation();
+//   // Do something
+// });
 
-});
+// $('.accordion h1 span').attr('disabled','disabled');
 
+
+// $(".accordion h2 span").on('click',test);
+// function test(e){
+//   console.log(e);
+//   e.stopPropagation()
+//   // e.preventDefault();
+// }
 
 $(".accordion h1, .accordion h2").click(function(e) {
-  console.log(e.target);
+  // console.log(e.target);
   var target = e.target,
       name = target.nodeName.toUpperCase();
 

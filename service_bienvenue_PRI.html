@@ -563,10 +563,16 @@
 
 				<!-- JS Bienvenue -->
 				<script type="text/javascript" src="js/jquery-1-12-4-min.js"></script>
+				<script type="text/javascript" src="js/pointer_events_polyfill.js"></script>
 		    <script type="text/javascript" src="js/index.js"></script>
-				<!--[if (gte IE 6)&(lte IE 8)]>
-					<script type="text/javascript" src="js/selectivizr-min.js"></script>
-				<![endif]-->
+
+				<script type="text/javascript">
+							$(document).ready(function(){
+					 PointerEventsPolyfill.initialize({});
+				 });
+				</script>
+
+
 
 				<!---FIN LIVRAISON--->
 
